@@ -1,10 +1,11 @@
 import 'package:news_app/models/categori_model.dart';
 
 List<CategoryModel> getCategories() {
-  List<CategoryModel> category = new List<CategoryModel>[];
+  List<CategoryModel> category = <CategoryModel>[];
   CategoryModel categoryModel = new CategoryModel();
   categoryModel.CategoryName = " Business ";
-  categoryModel.imageUrl = "https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQi0jEyMDd9&auto=format&fit=crop&w=1951&q=80";
+  categoryModel.imageUrl =
+      "https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQi0jEyMDd9&auto=format&fit=crop&w=1951&q=80";
   category.add(categoryModel);
   categoryModel = new CategoryModel();
   //2
