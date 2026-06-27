@@ -1,16 +1,101 @@
-# news_app
+# 📰 Flutter News App
 
-A new Flutter project.
+A modern Flutter application that fetches and displays the latest news articles in a clean and responsive interface. The application is designed with reusable widgets and a modular folder structure to provide a smooth reading experience.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- 📰 View the latest news headlines
+- 📂 Browse news by category
+- 📖 Read detailed news articles
+- 📱 Responsive and clean UI
+- ♻️ Reusable Flutter widgets
+- 🏗️ Organized project architecture
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠 Tech Stack
+
+- Flutter
+- Dart
+- REST API
+- HTTP Package
+- Material Design
+
+---
+
+## 📁 Project Structure
+
+```text
+lib/
+├── helper/
+│   ├── data.dart
+│   └── news.dart
+├── models/
+│   ├── article_model.dart
+│   └── category_model.dart
+├── views/
+│   ├── home.dart
+│   ├── article_view.dart
+│   └── category_news.dart
+└── main.dart
+```
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Flutter SDK
+- Dart SDK
+- Android Studio or VS Code
+
+### Installation
+
+```bash
+git clone https://github.com/kiranmai456/flutter-news-app.git
+cd flutter-news-app
+flutter pub get
+flutter run
+```
+
+---
+
+## 🎯 Learning Outcomes
+
+This project helped me improve my knowledge of:
+
+- Flutter UI development
+- REST API integration
+- JSON parsing
+- Navigation and routing
+- Reusable widgets
+- Project organization
+
+---
+
+## 🔮 Future Improvements
+
+- Search functionality
+- Bookmark articles
+- Dark mode
+- Pull-to-refresh
+- Offline caching
+- Share news articles
+
+---
+
+## 👩‍💻 Author
+
+**Swathi Kiranmai**
+
+Flutter Developer
+
+GitHub:
+https://github.com/kiranmai456
+
+---
+
+⭐ If you found this project helpful, consider giving it a Star.
