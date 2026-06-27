@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:news_app/helper/data.dart';
-import 'package:news_app/helper/news.dart';
+import '../helper/data.dart';
+import '../helper/news.dart';
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:news_app/models/article_model.dart';
-import 'package:news_app/models/categori_model.dart';
-import 'package:news_app/views/article_view.dart';
-import 'package:news_app/views/category_news.dart';
+import '../models/article_model.dart';
+import '../models/categori_model.dart';
+import 'article_view.dart';
+import 'category_news.dart';
 
 class Home extends StatefulWidget {
   @override
